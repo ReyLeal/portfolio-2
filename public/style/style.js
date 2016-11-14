@@ -7,7 +7,6 @@ $(document).ready(function(){
     WidthChange(mq);
   }
 
-  console.log("Hello1");
   function WidthChange(mq) {
     if(mq.matches) {
       $('#onclick').click(function(){
