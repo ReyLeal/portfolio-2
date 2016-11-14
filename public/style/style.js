@@ -31,7 +31,7 @@ $(document).ready(function(){
       });
     } else {
       $('#onclick').click(function(){
-        document.getElementById("mySidenav").style.width = "100vw";
+        document.getElementById("mySidenav").style.width = "100%";
       });
       $('#closenav').click(function(){
         document.getElementById("mySidenav").style.width = "0";
