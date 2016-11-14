@@ -153,7 +153,7 @@ h1 {
 }
 .bio-div p {
   font-family: 'Arimo', sans-serif;
-  font-size: 110%
+  font-size: 110%;
   margin-top: 2rem;
 }
 .fa {
@@ -170,11 +170,9 @@ h1 {
 .projects-container {
   transition: margin-left .5s;
   height: 50vh;
-  background-color: none;
 }
 
 .projects-title-row {
-  background-color: none;
   text-align: center;
   color: #424242;
   height: 10rem;
