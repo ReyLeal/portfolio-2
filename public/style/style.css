@@ -1,0 +1,268 @@
+body {
+  background-color: #E0E0E0;
+  font-family: 'Arimo', sans-serif;
+  color: #757575;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.nav-content {
+  min-width: 400px;
+  padding: 1rem 2rem;
+  padding-bottom: 5rem;
+}
+.sidenav a {
+  text-decoration: none;
+}
+.sidenav h3 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 1rem 0;
+}
+.sidenav p {
+  text-align: center;
+  font-size: 130%;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#css-img {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: auto;
+  max-width: 120px;
+  margin: 0 auto;
+  width: 30%;
+  padding-bottom: 2em;
+}
+#ruby-img {
+  margin-top: 5rem;
+  height: auto;
+  margin: 0 auto;
+  max-width: 170px;
+  width: 23%;
+  padding-bottom: 2em;
+}
+#html-img {
+  margin: 0 auto;
+  height: auto;
+  max-width: 177px;
+  width: 22%;
+  padding-bottom: 2em;
+}
+#rails-img {
+  margin: 0 auto;
+  height: auto;
+  max-width: 177px;
+  width: 22%;
+  padding-bottom: 2em;
+}
+#js-img {
+  margin: 0 auto;
+  height: auto;
+  padding-right: 1rem;
+  max-width: 177px;
+  width: 25%;
+  padding-bottom: 2em;
+}
+button {
+  margin-top: 1rem;
+  background-color: transparent;
+  border: none;
+  float: left;
+}
+
+button:focus {
+  outline: none;
+}
+
+button .fa-align-justify {
+  color: white;
+}
+.top-container {
+  transition: margin-left .5s;
+  background-image: url(../gradient-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  box-shadow: 0px 0px 10px 1px black;
+}
+h1 {
+  font-size: 40px;
+}
+.bio-div {
+  font-size: 110%;
+}
+.down-prompt {
+  text-align: center;
+  vertical-align: baseline;
+  margin-top: 15rem;
+  color: white;
+  visibility: hidden;
+}
+.down-prompt .fa-angle-double-down {
+  color: white;
+  opacity: 0.25;
+}
+.row.info-row {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.photo {
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiHAAAAJDE4ZDU2NzM1LWJhZDEtNGNkNC1iYzJmLWQ5YjViZmUxZGFiMg.jpg);
+  height: 20rem;
+  width: 20rem;
+  border: solid rgba(222, 220, 231, 0.5) .5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.bio-div {
+  border-top: solid rgba(107, 104, 116, 0.4) 0.1rem;
+  border-bottom: solid rgba(107, 104, 116, 0.4) 0.1rem;
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  padding-top: 1rem;
+  color: rgb(222, 220, 231);
+}
+.bio-div p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 110%
+  margin-top: 2rem;
+}
+.fa {
+  padding: .5rem .5rem;
+  color: #03A9F4;
+}
+.social {
+  transition:transform.75s ease-out;
+}
+.social:hover {
+  transform: rotateY(-360deg);
+}
+
+.projects-container {
+  transition: margin-left .5s;
+  height: 50vh;
+  background-color: none;
+}
+
+.projects-title-row {
+  background-color: none;
+  text-align: center;
+  color: #424242;
+  height: 10rem;
+}
+.projects-title-row h1{
+  font-weight: 900;
+  font-size: 200%;
+  padding-top: 1rem;
+}
+
+.text {
+  opacity: .75;
+  filter: blur(1px);
+}
+.text:hover {
+  opacity: 1;
+  filter: none;
+}
+.img1 {
+  background-image: url(../blog.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 20rem;
+}
+.img2 {
+  background-image: url(../hwmp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+.img3 {
+  background-image: url(../mockup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+.img4 {
+  background-image: url(../repl.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+.img5 {
+  background-image: url(../tip.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+.img6 {
+  background-image: url(../taquiza.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-height: 600px) {
+  .down-prompt {
+    margin-top: 6rem;
+  }
+}
+@media screen and ( max-width: 780px) {
+  .text {
+    opacity: 1;
+    filter: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .top-container {
+    height: 100vh;
+  }
+  .nav-content {
+    min-width: 100vw;
+  }
+  .down-prompt {
+    visibility: visible;
+  }
+  .text {
+    opacity: 1;
+    filter: none;
+  }
+}
