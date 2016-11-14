@@ -135,7 +135,7 @@ h1 {
   background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiHAAAAJDE4ZDU2NzM1LWJhZDEtNGNkNC1iYzJmLWQ5YjViZmUxZGFiMg.jpg);
   height: 20rem;
   width: 20rem;
-  border: solid rgba(222, 220, 231, 0.5) .5rem;
+  border: none;
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
