@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   if (matchMedia) {
     var mq = window.matchMedia("(min-width: 500px)");
-    mq.addListener(WidthChange, function(){console.log("Hello1 width");});
+    mq.addListener(WidthChange);
     WidthChange(mq);
   }
 
@@ -13,7 +13,6 @@ $(document).ready(function(){
           document.getElementById("mySidenav").style.width = "400px";
           document.getElementById("main1").style.marginLeft = "400px";
           document.getElementById("main2").style.marginLeft = "400px";
-
       });
       $('#closenav').click(function(){
         document.getElementById("mySidenav").style.width = "0";
